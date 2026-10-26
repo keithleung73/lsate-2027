@@ -645,6 +645,40 @@ html[lang="en"] .hero-title { font-size: clamp(2.4rem, 11.5vw, 5.4rem); line-hei
 .fee-list b { font-family: var(--font-display); font-size: .95rem; white-space: nowrap; }
 .fee-notes { margin: 0; padding-left: 1.2rem; display: grid; gap: .35rem; font-size: .93rem; color: var(--ink-2); }
 
+/* Poster / AI competition cards under How to Join */
+.comp-grid { display: grid; gap: 1.4rem; margin-top: 1.4rem; }
+.comp-card {
+  background: var(--paper);
+  border: var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.4rem;
+}
+.comp-card:nth-child(1) { background: #F3EEFF; }
+.comp-card:nth-child(2) { background: #E8FFF6; }
+.comp-card h3 {
+  margin: 0 0 .8rem;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  line-height: 1.25;
+}
+.comp-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: .45rem;
+}
+.comp-list li {
+  padding: .55rem .75rem;
+  border: 2px solid var(--ink);
+  border-radius: 12px;
+  background: #fff;
+  font-weight: 600;
+  font-size: .95rem;
+  line-height: 1.35;
+}
+
 /* Registration panel */
 .deadline-card { display: inline-grid; gap: .1rem; background: var(--yellow); color: var(--ink); border: var(--border); border-radius: var(--radius); box-shadow: 6px 6px 0 var(--ink); padding: 1rem 1.4rem; margin: .4rem 0 .4rem; transform: rotate(-2deg); }
 .dl-label { font-family: var(--font-display); font-weight: 800; font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; }
@@ -711,6 +745,7 @@ html[lang="en"] .hero-title { font-size: clamp(2.4rem, 11.5vw, 5.4rem); line-hei
   .theme-grid { grid-template-columns: 1fr 1fr; }
   .day-grid { grid-template-columns: 1fr 1fr; }
   .join-grid { grid-template-columns: 1.1fr 1fr; align-items: start; }
+  .comp-grid { grid-template-columns: 1fr 1fr; align-items: start; }
   .past-line { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); align-items: stretch; }
   .past-line .pl-item { padding: 1rem .95rem .9rem; }
   .past-line .pl-item h3 { font-size: 1.02rem; }
