@@ -626,6 +626,17 @@
     <figure><img src="" alt=""><figcaption></figcaption></figure>
   </dialog>
 
+  <dialog class="lightbox promo-popup" id="promo-popup" data-i18n-attr="aria-label:promo.title" aria-label="宣傳短片">
+    <button class="lightbox-close" type="button" data-i18n-attr="aria-label:media.close" aria-label="關閉">×</button>
+    <div class="promo-popup-inner">
+      <h2 class="promo-popup-title" data-i18n="promo.title">宣傳短片</h2>
+      <video id="promo-video" controls playsinline preload="metadata" poster="videos/promo-poster.jpg" muted>
+        <source src="videos/promo-popup.mp4" type="video/mp4">
+      </video>
+      <p class="promo-unmute-hint" id="promo-unmute-hint" hidden data-i18n="promo.unmute">影片已靜音自動播放；可撳喇叭掣開聲。</p>
+    </div>
+  </dialog>
+
   <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>

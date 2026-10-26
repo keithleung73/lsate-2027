@@ -461,6 +461,19 @@ html[lang="en"] .hero-title { font-size: clamp(2.4rem, 11.5vw, 5.4rem); line-hei
 .lightbox figcaption { padding: .7rem 1rem; font-weight: 700; }
 .lightbox-close { position: absolute; top: .5rem; right: .5rem; width: 42px; height: 42px; border-radius: 50%; border: var(--border); background: var(--yellow); font-size: 1.4rem; font-weight: 900; cursor: pointer; }
 
+/* Promo video popup (first visit) */
+.promo-popup { position: relative; max-width: min(92vw, 900px); width: min(92vw, 900px); }
+.promo-popup-inner { padding: 2.6rem 1rem 1rem; }
+.promo-popup-title {
+  font-family: var(--font-display); font-size: clamp(1.05rem, 2.5vw, 1.25rem);
+  font-weight: 800; margin: 0 0 .75rem; color: var(--yellow); letter-spacing: -.01em;
+}
+.promo-popup video {
+  width: 100%; max-width: 100%; height: auto; display: block;
+  border-radius: var(--radius-sm); background: #000; border: var(--border);
+}
+.promo-unmute-hint { margin: .65rem 0 0; font-size: .9rem; opacity: .88; font-weight: 600; }
+
 /* ---------- Scroll reveal (only when JS is on) ---------- */
 .js .reveal { opacity: 0; transform: translateY(28px) scale(.98); transition: opacity .6s ease, transform .6s cubic-bezier(.2,.8,.2,1.2); }
 .js .reveal.in { opacity: 1; transform: none; }

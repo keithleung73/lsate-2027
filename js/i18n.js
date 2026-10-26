@@ -278,6 +278,9 @@ window.LSATE_EN = {
   "media.vT": "Promo video &amp; clips",
   "media.vD": "Video links: ",
 
+  "promo.title": "Promo video",
+  "promo.unmute": "Playing muted — tap the speaker icon to unmute.",
+
   "org.kicker": "Organiser &amp; supporters",
   "org.title": "Our <span class=\"hl hl-sky\">dream team</span>",
   "org.organiser": "Organiser",
@@ -335,5 +338,7 @@ window.LSATE_EN = {
 window.LSATE_ZH_EXTRA = {
   "a11y.menuClose": "關閉選單",
   "cd.done": "研討會就係今日！🎉",
-  "media.play": "播放影片"
+  "media.play": "播放影片",
+  "promo.title": "宣傳短片",
+  "promo.unmute": "影片已靜音自動播放；可撳喇叭掣開聲。"
 };
