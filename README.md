@@ -88,7 +88,7 @@ Search `index.html` and `js/i18n.js` for `tba`, `待公布`, `TBA`, `示意`, `E
 When an item is confirmed, replace the badge with the real text in **both** files.
 Remove the dark “網站初稿 / Website draft” bar at the very top (`<div class="draft-bar">`) when the site goes live.
 
-Still TBA on the site (not in any source): the **2027 online registration link**, the **conference contact person**,
+Still TBA on the site (not in any source): the **2027 online registration link**,
 the **keynote professor's name**, **video links**, the **14 May schedule** and **poster competition rules**,
 transport directions / room on campus, and a downloadable enrolment form (Appendix 3 of the proposal).
 
@@ -102,7 +102,7 @@ transport directions / room on campus, and a downloadable enrolment form (Append
   **2026** form. When the 2027 form is ready, follow the HTML comment in `#register`: replace
   `<span class="btn btn-block btn-disabled" …>` with
   `<a class="btn btn-yellow btn-block" href="https://forms.gle/…" target="_blank" rel="noopener" data-i18n="reg.m1btn">…</a>`
-  and remove the `<b class="tba">` badge next to `reg.m1d`. Step 2 (email / fax) is real: enquiries@mkpc.edu.hk, fax (852) 2447 1924.
+  and remove the `<b class="tba">` badge next to `reg.m1d`. Step 2 (email / fax) is real: lste@mkpc.edu.hk, fax (852) 2447 1924. Contact person: Vice Principal Leung Kwok Lung (梁國龍 副校長); enquiry email lste@mkpc.edu.hk.
 
 ## Swapping videos (YouTube)
 
