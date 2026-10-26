@@ -47,10 +47,13 @@ All facts come from three files sent by the school — nothing else was added:
 ~~**Still pending:** 2024 and 2025 booklets (~424–432 MB) exceed the 100 MB CopyToBox limit; extraction on the
 user’s PC is still pending — no 2024/2025 content on the site yet.
 
-**Translations:** the official theme is in English only. The Chinese version on the page
-(`theme.zh`, `<p class="theme-zh">` in `index.html`, plus the shorter hero teaser `hero.themeText`) is a
-**DRAFT TRANSLATION written for this website — please have it checked** before publishing.
-The Chinese conference name 「讓學生談教育」 is also our translation of ‘Let Students Talk about Education’
+**2027 Theme (confirmed):** 無牆教室：構建共融校園 /
+Classrooms Without Walls: Building an Inclusive Campus.
+**Topic:** 如何透過學校政策及學生多元化學習活動，消除具特殊學習需要的學生所面對的社會發展障礙，並達到全人發展。 /
+How can school policies and diversified student learning activities eliminate the social and developmental barriers faced by students with special educational needs, and achieve whole-person development?
+(Replaces the earlier Barrier-Free / 無障礙教育制度 draft theme.)
+
+**Translations:** Theme and topic above are the confirmed bilingual wording. The Chinese conference name 「讓學生談教育」 is our translation of ‘Let Students Talk about Education’
 (no Chinese name appears in the sources). Prof. Tam and Principal Wong are shown with their English names in both
 languages because the proposal gives no Chinese names.
 
