@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-Hant-HK">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +14,10 @@
   <script>
     /* Apply saved language + enable JS-only styles before first paint (prevents flicker). */
     document.documentElement.classList.add('js');
-    try { if (localStorage.getItem('lsate-lang') === 'en') document.documentElement.setAttribute('data-pending-lang', 'en'); } catch (e) {}
+    try {
+      var _ls = localStorage.getItem('lsate-lang');
+      if (_ls !== 'zh') document.documentElement.setAttribute('data-pending-lang', 'en');
+    } catch (e) { document.documentElement.setAttribute('data-pending-lang', 'en'); }
   </script>
 </head>
 <body>
