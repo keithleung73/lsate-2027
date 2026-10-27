@@ -221,18 +221,10 @@
     });
   });
 
-  /* ---------- 11. First-visit promo video popup ---------- */
+  /* ---------- 11. Promo video popup (every page load) ---------- */
   var promo = document.getElementById('promo-popup');
   var promoVideo = document.getElementById('promo-video');
-  var PROMO_KEY = 'lsate2027-promo-seen';
   if (promo && promoVideo && typeof promo.showModal === 'function') {
-    var promoSeen = false;
-    try { promoSeen = sessionStorage.getItem(PROMO_KEY) === '1'; } catch (e) {}
-
-    function markPromoSeen() {
-      try { sessionStorage.setItem(PROMO_KEY, '1'); } catch (e) {}
-      promoSeen = true;
-    }
     function stopPromoVideo() {
       try { promoVideo.pause(); } catch (e) {}
       try { promoVideo.currentTime = 0; } catch (e) {}
@@ -242,7 +234,6 @@
     if (promoCloseBtn) promoCloseBtn.addEventListener('click', function () { promo.close(); });
     promo.addEventListener('click', function (e) { if (e.target === promo) promo.close(); });
     promo.addEventListener('close', function () {
-      markPromoSeen();
       stopPromoVideo();
       var hint = document.getElementById('promo-unmute-hint');
       if (hint) hint.hidden = true;
@@ -254,24 +245,21 @@
       }
     });
 
-    if (!promoSeen) {
-      setTimeout(function () {
-        try { if (sessionStorage.getItem(PROMO_KEY) === '1') return; } catch (e) {}
-        if (promo.open) return;
-        try { promo.showModal(); } catch (e) { return; }
-        if (reduceMotion) {
-          // Show dialog but let the user press play
-          promoVideo.muted = false;
-          return;
-        }
-        promoVideo.muted = true;
-        var hint = document.getElementById('promo-unmute-hint');
-        if (hint) hint.hidden = false;
-        var playPromise = promoVideo.play();
-        if (playPromise && typeof playPromise.catch === 'function') {
-          playPromise.catch(function () { /* autoplay blocked — controls still available */ });
-        }
-      }, 800);
-    }
+    setTimeout(function () {
+      if (promo.open) return;
+      try { promo.showModal(); } catch (e) { return; }
+      if (reduceMotion) {
+        // Show dialog but let the user press play
+        promoVideo.muted = false;
+        return;
+      }
+      promoVideo.muted = true;
+      var hint = document.getElementById('promo-unmute-hint');
+      if (hint) hint.hidden = false;
+      var playPromise = promoVideo.play();
+      if (playPromise && typeof playPromise.catch === 'function') {
+        playPromise.catch(function () { /* autoplay blocked — controls still available */ });
+      }
+    }, 800);
   }
 })();
