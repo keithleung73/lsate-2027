@@ -463,7 +463,7 @@ html[lang="en"] .hero-title { font-size: clamp(2.4rem, 11.5vw, 5.4rem); line-hei
 .lightbox figcaption { padding: .7rem 1rem; font-weight: 700; }
 .lightbox-close { position: absolute; top: .5rem; right: .5rem; width: 42px; height: 42px; border-radius: 50%; border: var(--border); background: var(--yellow); font-size: 1.4rem; font-weight: 900; cursor: pointer; }
 
-/* Promo video popup (first visit) */
+/* Promo video popup (every page load) */
 .promo-popup { position: relative; max-width: min(92vw, 900px); width: min(92vw, 900px); }
 .promo-popup-inner { padding: 2.6rem 1rem 1rem; }
 .promo-popup-title {
