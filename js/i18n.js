@@ -290,9 +290,9 @@ window.LSATE_EN = {
   "media.close": "Close",
   "media.play": "Play video",
   "media.promo": "Promo Video",
-  "media.soon": "Coming soon · 即將推出",
+  "media.soon": "Watch below",
   "media.vT": "Promo video &amp; clips",
-  "media.vD": "Video links: ",
+  "media.vD": "Promo video plays on the left / below.",
 
   "promo.title": "Promo video",
   "promo.unmute": "Playing muted — tap the speaker icon to unmute.",
@@ -356,6 +356,8 @@ window.LSATE_EN = {
 /* Extra Chinese strings used only by JavaScript (not present in the HTML). */
 window.LSATE_ZH_EXTRA = {
   "a11y.menuClose": "關閉選單",
+  "media.soon": "可於下方播放",
+  "media.vD": "宣傳片可於左側／下方播放。",
   "cd.done": "研討會就係今日！🎉",
   "media.play": "播放影片",
   "promo.title": "宣傳短片",

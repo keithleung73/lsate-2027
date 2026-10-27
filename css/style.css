@@ -339,6 +339,8 @@ html[lang="en"] .hero-title { font-size: clamp(2.4rem, 11.5vw, 5.4rem); line-hei
 .media-grid { display: grid; gap: 1.2rem; margin-bottom: 3rem; }
 .yt { position: relative; aspect-ratio: 16 / 9; border: var(--border); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); background: var(--ink); }
 .yt iframe, .yt-thumb { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.yt video, .promo-inline video { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; object-fit: contain; background: var(--ink); }
+
 .yt-thumb { background: center / cover no-repeat var(--ink); cursor: pointer; display: grid; place-items: center; padding: 0; }
 .yt-ph {
   position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .5rem; text-align: center; padding: 1rem; color: #fff;

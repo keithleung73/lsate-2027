@@ -502,18 +502,16 @@
 
         </ul>
 
-        <!-- PROMO VIDEO: put the YouTube ID in data-youtube-id (e.g. "AbCdEfGhIjK"). Empty = placeholder. -->
+        <!-- PROMO VIDEO: HTML5 player (media section). Popup uses videos/promo-popup.mp4 separately. -->
         <div class="video-row reveal">
-          <div class="yt" data-youtube-id="" data-i18n-attr="data-title:media.promo">
-            <div class="yt-ph">
-              <span class="yt-play" aria-hidden="true"></span>
-              <span class="yt-ph-title" data-i18n="media.promo">宣傳片</span>
-              <span class="yt-ph-sub" data-i18n="media.soon">即將推出 · Coming soon</span>
-            </div>
+          <div class="yt promo-inline" data-i18n-attr="aria-label:media.promo" aria-label="宣傳片">
+            <video controls playsinline preload="metadata" poster="videos/promo-section-poster.jpg" data-i18n-attr="aria-label:media.promo" aria-label="宣傳片">
+              <source src="videos/promo-section.mp4" type="video/mp4">
+            </video>
           </div>
           <div class="video-note">
             <h3 data-i18n="media.vT">宣傳片 &amp; 短片</h3>
-            <p><span data-i18n="media.vD">影片連結：</span><b class="tba" data-i18n="tba">待公布</b></p>
+            <p data-i18n="media.vD">宣傳片可於左側／下方播放。</p>
           </div>
         </div>
       </div>
