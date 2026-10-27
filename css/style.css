@@ -135,7 +135,7 @@ p { margin: 0 0 1em; }
 .lang-opt { padding: .3em .65em; border-radius: 999px; color: var(--ink-2); transition: background .2s, color .2s; }
 .lang-toggle[data-active="zh"] .lang-opt[data-l="zh"],
 .lang-toggle[data-active="en"] .lang-opt[data-l="en"],
-.lang-toggle:not([data-active]) .lang-opt[data-l="zh"] { background: var(--violet); color: #fff; }
+.lang-toggle:not([data-active]) .lang-opt[data-l="en"] { background: var(--violet); color: #fff; }
 
 .nav-toggle {
   width: 46px; height: 46px; border: var(--border); border-radius: 14px; background: var(--yellow); cursor: pointer;

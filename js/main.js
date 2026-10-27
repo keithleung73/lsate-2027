@@ -5,7 +5,7 @@
   var EN = window.LSATE_EN || {};
   var ZH = {};                         // filled from the HTML (Chinese is the default text)
   var ZH_EXTRA = window.LSATE_ZH_EXTRA || {};
-  var lang = 'zh';
+  var lang = 'en';
   var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   /* ---------- 1. Language toggle ---------- */
@@ -67,11 +67,19 @@
     if (tg) tg.setAttribute('data-active', lang);
     syncMenuLabel();
     tick(true);
-    try { localStorage.setItem('lsate-lang', lang); } catch (e) {}
+    try {
+      localStorage.setItem('lsate-lang', lang);
+      localStorage.setItem('lsate-lang-default', 'en');
+    } catch (e) {}
   }
 
-  var saved = 'zh';
-  try { saved = localStorage.getItem('lsate-lang') || 'zh'; } catch (e) {}
+  function readSavedLang() {
+    try {
+      if (localStorage.getItem('lsate-lang-default') !== 'en') return 'en';
+      return localStorage.getItem('lsate-lang') === 'zh' ? 'zh' : 'en';
+    } catch (e) { return 'en'; }
+  }
+  var saved = readSavedLang();
 
   /* ---------- 2. Mobile menu ---------- */
   var navToggle = document.querySelector('.nav-toggle');

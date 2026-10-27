@@ -2,7 +2,7 @@
    LSATE 2027 — ENGLISH TEXT
    ---------------------------------------------------------------------
    HOW TRANSLATION WORKS
-   • Chinese (default) text lives directly in index.html.
+   • Chinese source text lives directly in index.html. Visitors see English first.
    • Every translatable element has  data-i18n="some.key".
      Its English version is the entry with the same key below.
    • Attributes (aria-label, placeholder, title, data-alt…) use

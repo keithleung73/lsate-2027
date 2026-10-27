@@ -77,8 +77,9 @@ Every piece of text has a key, e.g.
 * Adding new text: give the element a new `data-i18n="my.key"` and add `"my.key": "English…"` to `i18n.js`.
   If an English entry is missing, the Chinese text stays and a warning appears in the browser console.
 
-The 中 / EN button in the header switches every text; the choice is remembered in the browser
-(`localStorage` key `lsate-lang`). Default is Chinese.
+The EN / 中 button in the header switches every text; the choice is remembered in the browser
+(`localStorage` key `lsate-lang`). Default is English. A Chinese choice made before this default
+is not kept, so the next visit opens in English; choosing 中 after that is remembered.
 
 Some English strings deliberately keep a little Chinese as a bilingual accent (e.g. the hero shows
 「讓學生談教育」 under the English title, the Chinese subtitles of the two day cards, the school's Chinese name).
