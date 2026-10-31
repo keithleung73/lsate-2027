@@ -166,7 +166,7 @@ window.LSATE_EN = {
   "join.posterT": "🎨 Poster Design Competition (14 May in-person only)",
   "join.poster1": "For on-site mainland / overseas schools on 14 May; Primary P1–P6 and Secondary S1–S6",
   "join.poster2": "Max. 2 teams per school; 2–4 students; English; team members may differ from the 15 May conference team",
-  "join.poster3": "Specs: A0 foam board; JPEG ≤500MB; displayed on campus with on-site explanation",
+  "join.poster3": "Specs: A1 foam board; JPEG ≤500MB; displayed on campus with on-site explanation",
   "join.poster4": "Grading: content 40% · expression 30% · language 20% · confidence 10%; first / second / third prizes",
   "join.poster5": "Register by 9 Apr 2027; poster submission deadline 30 Apr 2027",
   "join.poster6": "Schools joining only the 15 May conference need not submit posters",
@@ -331,7 +331,7 @@ window.LSATE_EN = {
   "faq.q7": "When is the registration deadline?",
   "faq.a7": "Registration deadline: 9 April 2027 (International Conference, Poster Design Competition and AI Short Video Competition). Poster submission deadline: 30 April 2027.",
   "faq.q8": "What are the Poster Design Competition rules?",
-  "faq.a8": "The Poster Design Competition is on 14 May, for on-site mainland / overseas schools only. Max. 2 teams per school, 2–4 students, English; A0 foam board, JPEG ≤500MB; display + on-site explanation. Grading 40/30/20/10; first / second / third prizes. Register by 9 Apr 2027; submit posters by 30 Apr 2027. Schools joining only on 15 May need not submit posters.",
+  "faq.a8": "The Poster Design Competition is on 14 May, for on-site mainland / overseas schools only. Max. 2 teams per school, 2–4 students, English; A1 foam board, JPEG ≤500MB; display + on-site explanation. Grading 40/30/20/10; first / second / third prizes. Register by 9 Apr 2027; submit posters by 30 Apr 2027. Schools joining only on 15 May need not submit posters.",
   "faq.q9": "What are the AI Short Video Competition rules?",
   "faq.a9": "For 14 May participants only. ≤3 minutes; English audio; Chinese subtitles; MP4 ≤800MB; primarily AI-made. Themes: Spirituality &amp; Nature / Gastronomy &amp; Flavors / Culture &amp; Traditions. Most Popular Award via public vote. Registration deadline: 9 Apr 2027.",
 
