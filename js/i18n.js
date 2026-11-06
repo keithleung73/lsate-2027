@@ -34,6 +34,7 @@ window.LSATE_EN = {
   "nav.past": "Past",
   "nav.venue": "Venue",
   "nav.faq": "FAQ",
+  "nav.download": "Download",
   "nav.register": "Register",
 
   "brand.text": "‘Let Students Talk about Education’<b>2027</b>",
