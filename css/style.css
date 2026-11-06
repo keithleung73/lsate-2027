@@ -1,5 +1,5 @@
 /* =========================================================
-   LSATE 2027 — "Your Voice" theme
+   ‘Let Students Talk about Education’ 2027 — "Your Voice" theme
    Palette: electric violet · hot pink · sunny yellow · mint · sky on cream, ink outlines
    ========================================================= */
 :root {
@@ -119,8 +119,18 @@ p { margin: 0 0 1em; }
 }
 .brand-bubble::after { content: ""; position: absolute; left: 6px; bottom: -9px; width: 12px; height: 12px; background: var(--pink); border-left: var(--border); border-bottom: var(--border); transform: skewY(-35deg); }
 .brand:hover .brand-bubble { transform: rotate(-8deg) scale(1.05); }
-.brand-text { font-family: var(--font-display); font-weight: 900; font-size: 1.15rem; letter-spacing: -.01em; }
-.brand-text b { color: var(--violet); margin-left: .2em; }
+.brand-text { font-family: var(--font-display); font-weight: 900; font-size: clamp(.72rem, 1.6vw, 1.05rem); letter-spacing: -.01em; line-height: 1.15; max-width: min(42vw, 22rem); }
+.brand-text b { color: var(--violet); margin-left: .2em; white-space: nowrap; }
+
+/* Charter downloads */
+.downloads-box { margin-top: 1.4rem; padding: 1.1rem 1.1rem 1.2rem; border: var(--border); border-radius: var(--radius-sm); background: rgba(255,255,255,.92); color: var(--ink); box-shadow: var(--shadow-sm); }
+.register .downloads-box { background: #FFF8E7; }
+.downloads-box h3 { margin: 0 0 .35rem; font-size: 1.15rem; }
+.downloads-lead { margin: 0 0 .85rem; font-weight: 600; opacity: .9; }
+.downloads-actions { display: grid; gap: .65rem; }
+.downloads-actions--row { display: flex; flex-wrap: wrap; gap: .7rem; }
+.downloads-box--contact { max-width: 900px; margin: 1.4rem auto 0; background: #FFF1A8; }
+.downloads-box .btn-ink { text-align: center; }
 
 .site-nav ul { list-style: none; margin: 0; padding: 0; }
 .site-nav a:not(.btn) { text-decoration: none; color: var(--ink); font-weight: 700; }

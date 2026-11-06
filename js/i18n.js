@@ -18,7 +18,7 @@ window.LSATE_EN = {
   "meta.desc": "‘Let Students Talk about Education’ International Conference 2027: Experience Day & Poster Design Competition on 14 May 2027, International Conference on 15 May 2027. Theme: Classrooms Without Walls: Building an Inclusive Campus — how school policies and diversified student learning activities can eliminate the social and developmental barriers faced by students with special educational needs, and achieve whole-person development. Organised by Man Kwan Pak Kau College. Registration deadline: 9 April 2027.",
 
   "a11y.skip": "Skip to main content",
-  "a11y.home": "LSATE 2027 home",
+  "a11y.home": "‘Let Students Talk about Education’ International Conference 2027 home",
   "a11y.mainNav": "Main menu",
   "a11y.menu": "Open menu",
   "a11y.menuClose": "Close menu",
@@ -35,6 +35,13 @@ window.LSATE_EN = {
   "nav.venue": "Venue",
   "nav.faq": "FAQ",
   "nav.register": "Register",
+
+  "brand.text": "‘Let Students Talk about Education’<b>2027</b>",
+
+  "dl.title": "Downloads",
+  "dl.lead": "Programme / charter PDFs for download.",
+  "dl.en": "📄 Download programme / charter (English)",
+  "dl.zh": "📄 Download programme / charter (Chinese)",
 
   "hero.edition": "GLL (Hong Kong, China) 2027",
   "hero.eyebrow": "International Conference 2027",
@@ -64,7 +71,7 @@ window.LSATE_EN = {
 
   "marquee": "LET STUDENTS TALK ✦ CLASSROOMS WITHOUT WALLS ✦ INCLUSIVE CAMPUS ✦ SEN SUPPORT ✦ 14–15.05.2027 ✦ REGISTER BY 09.04.2027 ✦ YOUR VOICE MATTERS ✦ ",
 
-  "about.kicker": "About LSATE × GLL",
+  "about.kicker": "About ‘Let Students Talk about Education’ × GLL",
   "about.title": "Education is <span class=\"hl hl-pink\">your</span> business.",
   "about.lead": "At the ‘Let Students Talk about Education’ International Conference, <strong>students take centre stage</strong> — talking about learning, school and the future in their own voices.",
   "about.p1": "The conference is part of <strong>Global Leadership Link (Hong Kong, China)</strong> and is organised by Man Kwan Pak Kau College. GLL was first launched in 2019 by Man Kwan Pak Kau College, iFuture and the Centre of Excellence for Life Skills, Careers &amp; Academics (CELSCA). It blends world-class education experiences with immersive activities, taking an interdisciplinary approach to inspire students to be leaders creating innovative solutions to make our world a better place.",
@@ -254,11 +261,11 @@ window.LSATE_EN = {
   "media.p2": "2023 GLL · Team presentation",
   "media.p3": "2023 GLL · Cheering from the audience",
   "media.p4": "2023 GLL · Students with their display boards",
-  "media.p5": "2021 LSATE · Secondary student panel",
+  "media.p5": "2021 ‘Let Students Talk about Education’ · Secondary student panel",
   "media.p6": "2023 GLL · School hall linked up online",
-  "media.p7": "2021 LSATE · Participating team",
+  "media.p7": "2021 ‘Let Students Talk about Education’ · Participating team",
   "media.p8": "2023 GLL · Event moments",
-  "media.p9": "2021 LSATE · Primary students sharing online",
+  "media.p9": "2021 ‘Let Students Talk about Education’ · Primary students sharing online",
   "media.a1": "Two students presenting at a podium in front of the 2023 conference backdrop",
   "media.a2": "Four secondary students presenting together on stage",
   "media.a3": "Students in the audience smiling and cheering",

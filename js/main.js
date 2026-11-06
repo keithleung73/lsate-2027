@@ -1,4 +1,4 @@
-/* LSATE 2027 — site behaviour (no dependencies) */
+/* ‘Let Students Talk about Education’ 2027 — site behaviour (no dependencies) */
 (function () {
   'use strict';
   var doc = document.documentElement;
